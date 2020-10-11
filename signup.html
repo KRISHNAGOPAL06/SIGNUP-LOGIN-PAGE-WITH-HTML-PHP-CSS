@@ -1,0 +1,61 @@
+<html>
+ <head>
+ <style>
+  body{
+       background-image:url('3.jpeg');
+       } 
+  div{
+      bgcolor="1abc9c";
+      height:600px;
+      width:400px;
+      border-left:10px double blue;
+      border-right:10px double orange;
+      border-top:10px double red;
+      border-bottom:10px double slateblue;
+    }
+  
+      
+      
+ </style>
+  <title>REGISTER PAGE</title>
+ </head>
+
+ <body style="color:white">
+ 
+ <center>
+ <div>
+ 
+ <h1>
+ <u>REGISTER PAGE</u>
+ </h4>
+ <form action="signup.php" method="POST" align="left">
+ <h3 align="left">
+     
+     <p><b>NAME :<input type="text" name="user" id="user"required></b></p>
+     <p>PASSWORD :<input type="text" name="pass" id="pass" required></p>
+     <p>PHONE NUMBER :<input type="number" name="phone" id="phone" required></p>
+     <p>EMAIL ID :<input type="email" placeholder="Ex.@gmail.com" name="email" id="email"></p>
+     <p>ADDRESS :<input type="text" required name="address" id="address"></p>
+ <p>DOB :<input type="date" required name="dob" id="dob"></p>
+ <p>GENDER :<input type="radio" name=gender id="gender" value="Male">Male<input type="radio"  name="gender" id="gender" value="Female">Female<input type="radio" name="gender" id="gender" value="Other">Other</p>
+ <p>NATIONALITY :<select name="nationality" id="nationality">
+ <option value="">-- select one --</option>
+ <option value="INDIA">INDIA</option>
+ <option value="PAKISTAN">PAKISTAN</option>
+ <option value="CHINA">CHINA</option>
+ </select></p>
+ <p><input type="checkbox">I Agree all terms and conditions.</p>
+ 
+ 
+ <p align="center">
+    
+     <input type="submit" value="submit"/>
+     </p></p>
+</form>
+ <br>
+ <a style="color:white" href="loginmy.html">Already Registered ? Click here to Login.</a>
+ </div>
+ </center>
+ 
+ </body>
+</html>
